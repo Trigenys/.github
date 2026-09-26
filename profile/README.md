@@ -2,30 +2,40 @@
 
 **Designing the systems behind decisions.**
 
-Trigenys builds focused software products and automation systems that turn operational friction into dependable workflows. We work across developer tooling, product infrastructure, automation and applied software engineering.
+Trigenys builds focused software products, automation systems and developer tools that turn operational friction into dependable workflows.
 
-## What we're building
+We care about software that is useful in the real world: clear problems, measurable outcomes, pragmatic architecture and automation where it actually saves time.
 
-- [**Release Video Engine**](https://github.com/Trigenys/release-video-engine) — automated release-to-video marketing for SaaS and developer-tool teams.
-- [**Product Identity**](https://github.com/Trigenys/product-identity) — serialization, authenticity verification and warranty registration for physical-product brands.
-- [**Sims Mod Health**](https://github.com/Trigenys/sims-mod-health) — an offline-first desktop health manager for The Sims 4 mods and custom content.
-- [**AppFactory OpenPage Engine**](https://github.com/Trigenys/appfactory-openpage-engine) — a JSON-first website generation engine with a visual editor and AI-assisted site generation.
+## Products
 
-## How we build
+- [**Release Video Engine**](https://github.com/Trigenys/release-video-engine) — turns software releases into branded short-form product videos with Remotion.
+- [**Product Identity**](https://github.com/Trigenys/product-identity) — product serialization, authenticity verification and warranty registration for physical-product brands.
+- [**Sims Mod Health**](https://github.com/Trigenys/sims-mod-health) — offline-first desktop tooling for auditing and maintaining The Sims 4 mods and custom content.
+- [**AppFactory OpenPage Engine**](https://github.com/Trigenys/appfactory-openpage-engine) — JSON-first website generation with reusable layouts, visual editing and AI-assisted workflows.
 
-We favor pragmatic architecture, explicit quality gates and automation that removes repetitive work without hiding the engineering underneath.
+## What we work on
 
-**Core stack:** TypeScript · React · Python · FastAPI · Node.js · PostgreSQL · Cloudflare · AWS · GitHub Actions · Docker
+**Product engineering** — full-stack applications, internal tools and workflow-heavy business software.
 
-## Current focus
+**Automation** — systems that eliminate repetitive operational work without hiding the engineering underneath.
 
-We are actively exploring products around:
+**Developer tooling** — CI/CD, project automation, release workflows and software-delivery infrastructure.
 
-- software delivery and developer productivity;
-- product identity and operational trust;
-- automated media generation;
-- desktop and cloud automation.
+**Applied media & AI** — deterministic content generation, AI-assisted workflows and productized automation.
+
+## Engineering principles
+
+- Start with the problem, not the stack.
+- Automate repeatable work, not judgment.
+- Prefer explicit quality gates over fragile magic.
+- Keep systems observable, maintainable and economically sensible.
+- Ship narrow, prove value, then expand.
+
+## Core stack
+
+TypeScript · React · Python · FastAPI · Node.js · PostgreSQL · Docker · GitHub Actions · AWS · Cloudflare
 
 ---
 
-<sub>Trigenys Group · Building systems that are useful before they are impressive.</sub>
+**Trigenys Group**  
+*Building systems that are useful before they are impressive.*
