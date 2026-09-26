@@ -31,6 +31,19 @@ We care about software that is useful in the real world: clear problems, measura
 - Keep systems observable, maintainable and economically sensible.
 - Ship narrow, prove value, then expand.
 
+## RAIDER engineering standard
+
+Trigenys uses **RAIDER** as a cross-project engineering standard for shared components, automations, platform tooling and structural changes:
+
+- **R — Reusable:** capabilities should be reusable without copy-paste or consumer-specific forks.
+- **A — Agnostic:** behavior should not depend implicitly on a repository, owner, branch, stack, OS or provider when that context can be discovered or configured.
+- **I — Idempotent:** repeated runs converge to the same desired state without duplicates or unnecessary writes.
+- **D — Durable / Non-regressive:** new capabilities preserve supported behavior and contracts; significant failures feed a documented failure-memory loop.
+- **E — Engineering-grade:** architecture, security, tests, observability and documentation must be production-minded, with a reuse-first **Adopt · Adapt · Learn · Build** approach.
+- **R — Retroactive:** existing projects are first-class consumers; new capabilities must support brownfield adoption without destructive resets.
+
+RAIDER is used as a design, review and Definition-of-Done framework—not just as documentation.
+
 ## Core stack
 
 TypeScript · React · Python · FastAPI · Node.js · PostgreSQL · Docker · GitHub Actions · AWS · Cloudflare
