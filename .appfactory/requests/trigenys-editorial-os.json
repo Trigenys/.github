@@ -1,0 +1,10 @@
+{
+  "name": "Trigenys Editorial OS",
+  "slug": "trigenys-editorial-os",
+  "projectType": "webapp",
+  "preset": "react-vite",
+  "private": false,
+  "description": "Multi-agent editorial operating system for sourcing, verifying, producing, publishing and growing multi-vertical media with human approval gates.",
+  "brief": "Construire une plateforme éditoriale multi-agents permettant à une seule personne de piloter une petite rédaction assistée par IA. Le système doit couvrir la détection de sujets, la qualification éditoriale, la vérification des sources, la recherche, la rédaction, la création d'assets, le contrôle qualité, la publication, la distribution marketing et l'analyse de performance. Architecture cible: 7 agents spécialisés, 1 orchestrateur de workflow, 3 human gates configurables, journal d'audit, vertical packs réutilisables et intégrations progressives RSSHub, Crawl4AI, LangGraph, LiteLLM, Langfuse, Payload, n8n, Postiz, PostHog et Remotion. Le produit doit rester générique: Trigenys Insight, GL media, anime, gaming, cyber watch ou startup Africa sont des vertical packs, pas du code métier hardcodé. Priorités: auditabilité, idempotence, observabilité, coûts contrôlés, sources traçables et RAIDER.",
+  "language": "fr"
+}
