@@ -1,0 +1,9 @@
+{
+  "name": "Trigenys Payment Orchestrator",
+  "slug": "payment-orchestrator",
+  "projectType": "service",
+  "preset": "typescript-api",
+  "private": false,
+  "description": "Provider-agnostic payment orchestration for African payment rails, with normalized APIs, SDKs, webhooks, ledger and reconciliation.",
+  "language": "en"
+}
